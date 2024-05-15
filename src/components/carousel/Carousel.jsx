@@ -242,25 +242,25 @@ const Carousel = () => {
       <div className="text-slate-300 text-2xl font-semibold mb-2 ml-28">
         Latest Releases
       </div>
-      <div className="left-0 w-full h-full">
+      <div className="left-0 w-full h-full mb-8">
         <CardCarousel cards={LatestReleases} />
       </div>
       <div className="text-slate-300 text-2xl font-semibold mb-2 ml-28">
         Popular Shows
       </div>
-      <div className="left-0 w-full h-full">
+      <div className="left-0 w-full h-full mb-8">
         <CardCarousel cards={PopularShows} />
       </div>
       <div className="text-slate-300 text-2xl font-semibold mb-2 ml-28">
         Drama Delights
       </div>
-      <div className="left-0 w-full h-full">
+      <div className="left-0 w-full h-full mb-8">
         <CardCarousel cards={DramaDelight} />
       </div>
       <div className="text-slate-300 text-2xl font-semibold mb-2 ml-28">
         Popular Movies
       </div>
-      <div className="left-0 w-full h-full">
+      <div className="left-0 w-full h-full mb-8">
         <CardCarousel cards={PopularMovies} />
       </div>
     </div>
